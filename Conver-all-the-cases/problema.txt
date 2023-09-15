@@ -1,0 +1,22 @@
+En este kata, harás una función que convierte entre camelCase, snake_case, y kebab-case.
+
+Debe escribir una función que cambie a un caso determinado. Debe ser capaz de manejar los tres tipos de casos:
+
+js> changeCase("snakeCase", "snake")
+"snake_case"
+js> changeCase("some-lisp-name", "camel")
+"someLispName"
+js> changeCase("map_to_all", "kebab")
+"map-to-all"
+js> changeCase("doHTMLRequest", "kebab")
+"do-h-t-m-l-request"
+js> changeCase("invalid-inPut_bad", "kebab")
+undefined
+js> changeCase("valid-input", "huh???")
+undefined
+js> changeCase("", "camel")
+""
+
+La función debe tratar con entradas no válidas como se muestra, aunque solo se pasarán cadenas. 
+Además, todos los identificadores válidos estarán en minúsculas, excepto cuando sea necesario, es decir, 
+en los límites de las palabras en camelCase.

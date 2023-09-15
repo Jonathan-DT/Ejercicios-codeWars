@@ -1,0 +1,1 @@
+Cree una función que tome un entero como argumento y devuelva para números pares o para números impares."Even""Odd"
