@@ -1,0 +1,8 @@
+Hay pilares cerca de la carretera. La distancia entre los pilares es la misma y 
+el ancho de los pilares es el mismo. La función acepta tres argumentos:
+
+   1. número de pilares (≥ 1);
+   2. distancia entre pilares (10 - 30 metros);
+   3. Ancho del pilar (10 - 50 centímetros).
+   
+Calcula la distancia entre el primer y el último pilar en centímetros (sin el ancho del primer y último pilar).
