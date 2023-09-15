@@ -1,0 +1,16 @@
+El nombre completo de una persona generalmente se compone de un nombre, segundo nombre y apellido; sin embargo, 
+en algunas culturas (por ejemplo, en el sur de la India) puede haber más de un segundo nombre.
+
+Escriba una función que tome el nombre completo de una persona y devuelva las iniciales, separadas por puntos (). 
+Las iniciales deben estar en mayúsculas. El apellido de la persona debe aparecer en su totalidad, con su primera letra en 
+mayúsculas también.'.'
+
+Vea el patrón a continuación:
+
+"code wars"            ---> "C.Wars"
+"Barack hussein obama" ---> "B.H.Obama"
+
+
+Los nombres en el nombre completo están separados por exactamente un espacio ( ) ; 
+sin espacios iniciales o finales. 
+Los nombres siempre estarán en minúsculas, excepto opcionalmente su primera letra.' '
