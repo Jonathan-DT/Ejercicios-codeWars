@@ -1,0 +1,8 @@
+Dada una cadena, progresivamente necesita concatenar la primera letra de la izquierda y la primera letra a la derecha
+ y "1", luego la segunda letra de la izquierda y la segunda letra a la derecha y "2", y así sucesivamente.
+
+Si la longitud de la cadena es impar, suelte el elemento central.
+
+Por ejemplo:
+charConcat("abcdef")    == 'af1be2cd3'
+charConcat("abc!def")   == 'af1be2cd3' // same result
