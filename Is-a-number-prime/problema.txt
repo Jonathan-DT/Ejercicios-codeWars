@@ -1,0 +1,14 @@
+Defina una función que tome un argumento entero y devuelva un valor lógico o dependiendo de si el entero es un primo.truefalse
+
+Según Wikipedia, un número primo (o primo) es un número natural mayor que el que no tiene divisores positivos aparte de sí mismo.11
+
+Requisitos
+Puede asumir que se le dará una entrada entera.
+No se puede asumir que el entero será sólo positivo. También se le pueden dar números negativos ( o ).0
+NOTA sobre el rendimiento: No se requieren optimizaciones sofisticadas, pero aún así las soluciones más triviales pueden agotar el tiempo de espera. 
+Los números suben a 2^31 (o similar, dependiendo del idioma).
+ El bucle hasta , o , será demasiado lento.nn/2
+Ejemplo
+is_prime(1)  /* false */
+is_prime(2)  /* true  */
+is_prime(-1) /* false */
