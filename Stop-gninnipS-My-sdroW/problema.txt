@@ -1,0 +1,10 @@
+Escribe una función que tome una cadena de una o más palabras y devuelva la misma cadena, 
+pero con las cinco o más palabras de letra invertidas (al igual que el nombre de este Kata). 
+Las cadenas pasadas consistirán solo en letras y espacios. Los espacios se incluirán solo cuando haya más 
+de una palabra presente.
+
+Ejemplos:
+
+spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" 
+spinWords( "This is a test") => returns "This is a test" 
+spinWords( "This is another test" )=> returns "This is rehtona test"
