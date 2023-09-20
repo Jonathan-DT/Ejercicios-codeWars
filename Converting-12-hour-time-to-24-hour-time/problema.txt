@@ -1,0 +1,7 @@
+Convertir un tiempo de 12 horas como "8:30 am" o "8:30 pm" a 24 horas (como "0830" o "2030") suena bastante fácil, 
+¿verdad? Bueno, ¡veamos si puedes hacerlo!
+
+Tendrá que definir una función, a la que se le dará una hora (siempre en el rango de 1 a 12, inclusive),
+un minuto (siempre en el rango de 0 a 59, inclusive) y un período (ya sea a.m. o p.m.) como entrada.
+
+Su tarea es devolver una cadena de cuatro dígitos que codifique ese tiempo en 24 horas.
