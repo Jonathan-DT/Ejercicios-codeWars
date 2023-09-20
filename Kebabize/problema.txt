@@ -1,0 +1,8 @@
+Modifique la función para que convierta una cadena de caja de camello en una caja de kebab.kebabize
+
+"camelsHaveThreeHumps"  -->  "camels-have-three-humps"
+"camelsHave3Humps"  -->  "camels-have-humps"
+"CAMEL"  -->  "c-a-m-e-l"
+
+Notas:
+La cadena devuelta sólo debe contener letras minúsculas
