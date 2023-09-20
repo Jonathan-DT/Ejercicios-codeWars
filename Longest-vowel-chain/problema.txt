@@ -1,0 +1,3 @@
+Las subcadenas vocálicas en la palabra son . El más largo de estos tiene una longitud de 2.
+Dada una cadena en minúsculas que solo tiene caracteres alfabéticos (vocales y consonantes) y sin espacios,
+devuelve la longitud de la subcadena vocálica más larga.
