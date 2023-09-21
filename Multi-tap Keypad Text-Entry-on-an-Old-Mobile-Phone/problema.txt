@@ -1,0 +1,13 @@
+Antes del desarrollo de los sistemas T9 (entrada de texto predictivo), 
+el método para escribir palabras se llamaba "multi-tap" y consistía en presionar un botón repetidamente para recorrer todos sus valores posibles,
+en orden. Por ejemplo:
+
+Al presionar el botón repetidamente, se desplazarán las letras .7P -> Q -> R -> S -> 7 -> P -> ...
+Al pulsar el botón se está desplazando a través de .0SPACE -> 0 -> SPACE -> 0 -> ...
+Los botones con un solo símbolo simplemente escriben este símbolo.
+
+Para esta asignación, escriba código que pueda calcular la cantidad de pulsaciones de botones requeridas para cualquier frase, con los siguientes requisitos:
+
+La puntuación puede ser ignorada para este ejercicio.
+Del mismo modo, el teléfono no distingue entre caracteres en mayúsculas y minúsculas (pero debe permitir que su módulo acepte entradas en cualquier forma, por conveniencia).
+Las frases probadas contienen letras ( y ), dígitos () y caracteres especiales y .A-Za-z0-9#*
