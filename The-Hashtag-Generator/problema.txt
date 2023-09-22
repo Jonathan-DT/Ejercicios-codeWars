@@ -1,0 +1,14 @@
+El equipo de marketing está pasando demasiado tiempo escribiendo hashtags.
+¡Vamos a ayudarlos con nuestro propio generador de hashtags!
+
+Aquí está el trato:
+
+Debe comenzar con un hashtag ().#
+Todas las palabras deben tener su primera letra en mayúscula.
+Si el resultado final es superior a 140 caracteres debe devolver.false
+Si la entrada o el resultado es una cadena vacía, debe devolver .false
+
+EJEMPLOS:
+" Hello there thanks for trying my Kata"  =>  "#HelloThereThanksForTryingMyKata"
+"    Hello     World   "                  =>  "#HelloWorld"
+""                                        =>  false
