@@ -1,0 +1,10 @@
+En el criptoanálisis, los patrones de palabras pueden ser una herramienta útil para descifrar cifrados simples.
+
+Un patrón de palabras es una descripción de los patrones de letras que ocurren en una palabra, donde A cada letra se le da un código entero en orden de aparición. 
+Así que la primera letra es Dado el código 0, y al segundo se le asigna 1 si es diferente a la primera letra o 0 de lo contrario, y así sucesivamente.
+
+Por ejemplo, la palabra "hola" pasaría a ser "0.1.2.2.3".
+Para esta tarea distingue entre mayúsculas y minúsculas se ignora, por lo que "hola", "helLo" y "heLlo" devolverán el mismo patrón de palabras.
+
+Su tarea es devolver el patrón de palabras para una palabra dada.
+Todas las palabras proporcionadas ser cadenas no vacías de caracteres alfabéticos solamente, es decir, que coincidan con el regex "[a-zA-Z]+".
