@@ -1,0 +1,11 @@
+El siguiente código podría usar un poco de arte orientado a objetos. Si bien es un método simple y funciona bien tal como está, 
+en un sistema más grande es mejor organizar los métodos en clases / objetos. (O, al menos, algo similar dependiendo de tu idioma)
+
+Refactorice el código siguiente para que pertenezca a una clase/objeto Person. Cada instancia de Person tendrá un método de saludo. 
+La instancia de Person debe ser instanciada con un nombre para que ya no tenga que pasarse a cada llamada al método greet.
+
+Así es como se usaría el código refactorizado final:
+
+var joe = new Person('Joe');
+joe.greet('Kate'); // should return 'Hello Kate, my name is Joe'
+joe.name           // should == 'Joe'
